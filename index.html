@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Madhusmita Samal's phishing website detection machine learning project.">
+  <title>Phishing Website Detection | Madhusmita Samal</title>
+  <style>
+    :root { color-scheme: light; --blue: #174ea6; --pale: #eef4ff; --ink: #182230; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; line-height: 1.6; color: var(--ink); background: #f6f8fc; }
+    header { background: linear-gradient(135deg, #123b78, #2475c9); color: white; padding: 48px 20px; text-align: center; }
+    header h1 { max-width: 850px; margin: 0 auto 12px; font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.15; }
+    header p { margin: 8px 0; }
+    main { max-width: 900px; margin: 28px auto; padding: 0 16px 32px; }
+    section { background: white; border-radius: 14px; padding: 22px; margin: 18px 0; box-shadow: 0 4px 18px rgba(20, 40, 80, .07); }
+    h2 { color: var(--blue); margin-top: 0; }
+    .tag { display: inline-block; background: rgba(255,255,255,.15); padding: 5px 10px; border-radius: 999px; margin: 5px; font-size: .92rem; }
+    a { color: var(--blue); overflow-wrap: anywhere; }
+    .notice { border-left: 4px solid #e0a000; background: #fff8e5; padding: 12px 14px; border-radius: 6px; }
+    footer { text-align: center; padding: 20px; color: #536174; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Phishing Website Detection using Machine Learning</h1>
+    <p>IBM SkillsBuild Cyber Security Bootcamp 2026 | BharatCares</p>
+    <p>Project by <strong>Madhusmita Samal</strong></p>
+    <span class="tag">Python</span><span class="tag">Random Forest</span><span class="tag">Cybersecurity</span>
+  </header>
+  <main>
+    <section>
+      <h2>Project Overview</h2>
+      <p>This beginner-friendly project demonstrates how a Random Forest machine-learning model can classify website records as <strong>Phishing</strong>, <strong>Suspicious</strong>, or <strong>Legitimate</strong>, using pre-extracted features from a public dataset.</p>
+      <p>The Python program downloads the dataset, prepares the data, trains and evaluates the model, and saves evaluation outputs.</p>
+    </section>
+    <section>
+      <h2>Dataset</h2>
+      <p>Dataset: UCI Machine Learning Repository — Phishing Websites.</p>
+      <p><a href="https://archive.ics.uci.edu/dataset/327/phishing" target="_blank" rel="noopener noreferrer">Open the official UCI dataset page</a></p>
+    </section>
+    <section>
+      <h2>Technologies Used</h2>
+      <ul><li>Python</li><li>pandas</li><li>scikit-learn</li><li>ucimlrepo</li><li>Matplotlib</li><li>joblib</li></ul>
+    </section>
+    <section>
+      <h2>How to Run the Python Project</h2>
+      <ol>
+        <li>Install Python 3.10 or later.</li>
+        <li>Download the project files from the GitHub repository.</li>
+        <li>Open a terminal in the project folder.</li>
+        <li>Install dependencies with <code>python -m pip install -r requirements.txt</code>.</li>
+        <li>Run <code>python Madhusmita_Samal_Phishing_Website_Detection.py</code>.</li>
+      </ol>
+      <p class="notice"><strong>Note:</strong> GitHub Pages displays this information page. It does not run the Python model in the browser. The Python file must be run in a Python environment.</p>
+    </section>
+    <section>
+      <h2>Project Files</h2>
+      <p>View the source code, requirements, README, and project report in the GitHub repository. Add all four submission files to the repository before submitting the project.</p>
+      <p><a href="https://github.com/madhumitasamal472-lab/Phishing-website-">Open the GitHub repository</a></p>
+    </section>
+    <section>
+      <h2>Limitations</h2>
+      <p>The model uses pre-extracted dataset features. It does not directly scan a live website or determine whether a raw URL is safe. Its predictions are educational indicators, not a guarantee of website safety.</p>
+    </section>
+  </main>
+  <footer>© 2026 Madhusmita Samal | Cybersecurity Machine Learning Project</footer>
+</body>
+</html>
